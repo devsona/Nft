@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+main{
+    background-color: #0D192C;
+    width: 100%;
+    min-height: 100vh;
+}
+#card-container{
+    width: 350px;
+    height: 560px;
+    background-color: #15263F;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    margin: auto;
+    border-radius: 0.5rem;
+}
+#nft-container{
+    margin: auto;
+    display: block;
+    width: 85%;
+}
+#nft-image{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+}
+h1 {
+    color: white;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 1rem;
+}
+#nft-p{
+    color: #8BACD9;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 1rem;
+}
+#nft-info-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.info-item-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+#ethereum-p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+}
+#clock-p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+}
+#hr{
+    border: solid #2E405A 1px;
+    margin-top: 1rem;
+}
+#avatar {
+    width: 33px;
+    height: 33px;
+    border-radius: 100%;
+    border: solid white 1px;
+}
+#create-p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+}
+#avatar-container{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+span {
+    color: white;
+    font-weight: 500;
+    margin-left: 0.2rem;
+}
